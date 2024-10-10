@@ -7,12 +7,12 @@ public class ConexaoBD {
     public static Connection con=null;// variável de classe conexão
 
     // Configurando os parâmetros da autenticação
-    static String driverJDBC = "oracle.jdbc.driver.OracleDriver";//Nome do driver da Oracle
-    static String server = "oracle.fiap.com.br";//Endereço do Banco de dados (server)
-    static String port = "1521";// Porta TCP padrão da Oracle
-    static String user = "RM556310";// Usuário BD
-    static String passwd = "130206";// Senha BD
-    static String sid = "ORCL";//SID do Banco de Dados
+    static String driverJDBC = "";//Nome do driver da Oracle
+    static String server = "";//Endereço do Banco de dados (server)
+    static String port = "";// Porta TCP padrão da Oracle
+    static String user = "";// Usuário BD
+    static String passwd = "";// Senha BD
+    static String sid = "";//SID do Banco de Dados
     static String url = "jdbc:oracle:thin:@" + server + ":" + port + ":" + sid;//Cria a da url da conexão
 
     public static Connection conectarBD(){
